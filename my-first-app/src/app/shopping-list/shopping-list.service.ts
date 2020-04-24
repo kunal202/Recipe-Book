@@ -1,4 +1,3 @@
-
 import { Ingredient } from '../shared/ingredient.model';
 import { Subject } from 'rxjs';
 
@@ -17,7 +16,6 @@ export class ShoppingListService {
   getIngredient(index: number) {
     return this.ingredients[index];
   }
-
 
   addIngredient(ingredient: Ingredient) {
     this.ingredients.push(ingredient);
