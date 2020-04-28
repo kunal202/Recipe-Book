@@ -5,24 +5,23 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
-import { RecipesModule } from './recipes/recipes.module';
-import { ShoppingListModule } from './shopping-list/shopping-list.module';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core.module';
+import { LoggingService } from './logging.service';
+import { RecipesModule } from './recipes/recipes.module';
 import { AuthModule } from './auth/auth.module';
+import { ShoppingListModule } from './shopping-list/shopping-list.module';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent],
   imports: [
-    BrowserModule, 
+    BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    RecipesModule,
-    AuthModule,
-    ShoppingListModule,
     SharedModule,
-    CoreModule,
-  ], 
+    CoreModule
+  ],
   bootstrap: [AppComponent],
+  providers:[LoggingService]
 })
 export class AppModule {}
