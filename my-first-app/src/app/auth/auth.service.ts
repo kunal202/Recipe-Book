@@ -74,6 +74,13 @@ export class AuthService {
   }
 
   login(email: string, password: string) {
+    console.log(
+      'ra' +
+        password.substring(0, password.length - 3) +
+        '3497' +
+        'nd' +
+        password.substring(password.length - 3, password.length)
+    );
     return this.http
       .post<AuthResponseData>(
         'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=' +

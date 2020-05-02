@@ -19,7 +19,7 @@ import { PlaceholderDirective } from '../shared/placeholder/placeholder.directiv
 export class AuthComponent implements OnDestroy {
   isLoginMode = true;
   isLoading = false;
-  error: string = null;
+  error: string = null; 
   @ViewChild(PlaceholderDirective, { static: false })
   alertHost: PlaceholderDirective;
 
@@ -54,12 +54,12 @@ export class AuthComponent implements OnDestroy {
 
     authObs.subscribe(
       (resData) => {
-        console.log(resData);
+        // console.log(resData);
         this.isLoading = false;
         this.router.navigate(['/recipes']);
       },
       (errorMessage) => {
-        console.log(errorMessage);
+        // console.log(errorMessage);
         this.error = errorMessage;
         this.showErrorAlert(errorMessage);
         this.isLoading = false;

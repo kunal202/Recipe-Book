@@ -10,11 +10,11 @@
         </div>
         <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)" *ngIf="!isLoading">
             <div class="form-group">
-                <label for="email">E-Mail</label>
+                <label style="color: white;" for="email">E-Mail</label>
                 <input type="email" id="email" class="form-control" ngModel name="email" required email />
             </div>
             <div class="form-group">
-                <label for="password">Password</label>
+                <label for="password" style="color: white;">Password</label>
                 <input type="password" id="password" class="form-control" ngModel name="password" required minlength="6" />
             </div>
             <div>

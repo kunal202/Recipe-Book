@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: rgba(240, 240, 240);
+    padding: 10px;
+    background-image: url(https://lh3.googleusercontent.com/ZT0abGwbWKCIelQTYIQLG9XUcD8mf26brwqtkpoFhTxlHfC355CCC_hCownMeBIGFGE);
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
