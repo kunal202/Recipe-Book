@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 import { Observable, Subscription } from 'rxjs';
 
 import { AuthService, AuthResponseData } from './auth.service';
-import { AlertComponent } from '../shared/alert/alert.component';
-import { PlaceholderDirective } from '../shared/placeholder/placeholder.directive';
+import { AlertComponent } from '../recipes/shared/alert/alert.component';
+import { PlaceholderDirective } from '../recipes/shared/placeholder/placeholder.directive';
 
 @Component({
   selector: 'app-auth',
