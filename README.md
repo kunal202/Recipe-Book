@@ -1,3 +1,5 @@
+
+
 # Recipe-Book_Shopping-List
 A Website to add your recipe in a recipe book and  add it to your Shopping List
 
@@ -19,7 +21,7 @@ If you are logged in then you should be able to see something like this:-
 
 - To edit, delete or moving the ingredients of a recipe you can do this by using the **manage recipe dropdown**
 
-![alt.text]()
+![alt.text](https://github.com/kunal202/Recipe-Book_Shopping-List/blob/master/Screenshot%20from%202020-05-08%2015-15-58.png)
 
 
-- At last, thank you for sticking with me to the end and yes,Don't forget to Add your recipe 😉
+- At last, thank you for sticking with me to the end and yes, please Don't forget to Add your recipe 😉
