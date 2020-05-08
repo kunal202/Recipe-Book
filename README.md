@@ -15,4 +15,11 @@ If you are logged in then you should be able to see something like this:-
 
 - To fetch the recipe click the **Manage** button in navbar dropdown and then clikcing on the **fetch data** button and after fetching and selcting any recipe you should be able to see somthing like this:-
 
-![alt.text](https://github.com/kunal202/Recipe-Book_Shopping-List/blob/master/Screenshot%20from%202020-05-08%2014-35-39.png)
+![alt.text](https://github.com/kunal202/Recipe-Book_Shopping-List/blob/master/Screenshot%20from%202020-05-08%2014-47-51.png)
+
+- To edit, delete or moving the ingredients of a recipe you can do this by using the **manage recipe dropdown**
+
+![alt.text]()
+
+
+- At last, thank you for sticking with me to the end and yes,Don't forget to Add your recipe 😉
