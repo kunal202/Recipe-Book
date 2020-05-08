@@ -9,7 +9,7 @@ A Website to add your recipe in a recipe book and  add it to your Shopping List
 - For Old Users
   - You can login to the website using the **login** button.
  
-If you are logged in then you should be able to see something like this:-
+**If you are logged in then you should be able to see something like this:-**
 
 ![alt.text](https://github.com/kunal202/Recipe-Book_Shopping-List/blob/master/Screenshot%20from%202020-05-08%2014-35-39.png)
 
